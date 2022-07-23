@@ -1,0 +1,35 @@
+xfwm4 - Window Manager
+
+The Xfce 4 Window Manager is part of the Xfce Desktop Environment.
+The command to run it in the foreground is xfwm4; to run it in the
+background use xfwm4 -daemon. The window manager is responsible for the
+placement of windows on the screen, provides the window decorations and
+allows them to be moved, resized or closed.
+
+xfwm4 adheres strongly to the standards defined on freedesktop.org.
+Consequently, special features such as making windows borderless, or
+providing an icon for the application must now be implemented in the
+application; you can no longer use the window manager to force different
+behaviour. One of the great features of xfwm4 is its themeability;
+themes are available at Xfce-Look. The window decorations (borders,
+title bar and window buttons) can be configured by using window manager
+themes.
+
+xfwm4 offers multi-head support, for both xinerama and real multi-screen
+modes, useful when you have more than one monitor connected to your
+computer.
+
+xfwm4 can be run stand-alone, but if used this way, the Xfce Settings
+Manager will be required as a GUI to make configuration changes. Tasks
+other than managing windows, like setting a background image or
+launching programs, need to be performed by other modules.
+
+xfwm4 includes its own compositing manager, which takes advantage of the
+new X.org's server extensions. The compositor is like a WM on its own;
+it manages a stack of all windows, monitors all kinds of X events and
+reacts to them accordingly. Having the compositing manager embedded in
+the window manager also helps keeping the various visual effects in sync
+with window events. If you want to use the compositor, you have to build
+xfwm4 using the –enable-compositor configure option. In any case, you
+can disable the compositor on xfwm4 startup using the '–compositor=off'
+argument.

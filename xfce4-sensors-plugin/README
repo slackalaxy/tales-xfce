@@ -1,0 +1,15 @@
+Sensors
+Written by Fabian Nowak, this is a hardware sensors plugin for the
+panel. For now, it only works on Linux and requires libsensors to
+display your mainboard sensors and fan speeds. Furthermore, it supports
+hddtemp to monitor your hard disk's temperature values. 
+
+Usage
+Add the plugin to the panel and start checking some checkboxes in the
+sensors table. You can specify the color you want the text to appear,
+rename the sensor so that the tooltip displays the new name. You can
+also display your values graphically, meaning they are displayed by
+bars. For those bars, you can specify min and max values which result in
+red colored bars, when those min or max values are reached. If you don't
+like the green bars, you can check to display colored bars, thus using
+the color values specified for each sensor.

@@ -1,0 +1,11 @@
+Helper Applications
+
+Exo is a support library used in the Xfce desktop. It has some helper
+applications that are used throughout the entire desktop, to manage
+preferred applications and edit .desktop files.
+
+Applications
+Desktop Item Editor – Editor for .desktop files
+Preferred Applications – Select the default applications to be used for
+various services, i.e. the web browser that should be used to open
+hyperlinks

@@ -1,0 +1,6 @@
+xfce4-appfinder - Application Finder
+
+The Application Finder is a program to find and launch installed
+applications on your system, and quickly execute commands. It does this
+by searching your file system for .desktop files, and displays a
+categorized list of all the GUI applications on your system.

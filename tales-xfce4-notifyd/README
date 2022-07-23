@@ -1,0 +1,8 @@
+xfce4-notifyd - Xfce Notification service
+
+Xfce4-notifyd is a notification service for the Xfce Desktop that
+implements most of the "server-side" portion of the Freedesktop desktop
+notifications specification. Applications that wish to pop up a
+notification bubble in a standard way can make use of the xfce4-notifyd
+service by sending standard messages over D-Bus using the
+org.freedesktop.Notifications interface. 

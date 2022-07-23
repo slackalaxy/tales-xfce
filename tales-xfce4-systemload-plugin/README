@@ -1,0 +1,9 @@
+Systemload
+
+A system load plugin for the Xfce4 desktop environment. It displays the
+current CPU load, the memory in use, the swap space and the system
+uptime in the Xfce4 panel.
+
+Usage
+Just place it into your panel. It will show you how little RAM and CPU
+Xfce can take.

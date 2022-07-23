@@ -1,0 +1,14 @@
+xfdesktop - Xfce Desktop Manager
+
+Xfdesktop is a desktop manager for the Xfce Desktop Environment. It
+handles the following tasks:
+
+- background image / color
+- root menu, window list
+- minimized app icons
+- file icons on the desktop (using Thunar libs)
+
+It can bring up an applications menu and a list of all running
+applications when you click on the desktop with the right or middle
+mouse button respectively. Settings are available via the Settings
+Manager.

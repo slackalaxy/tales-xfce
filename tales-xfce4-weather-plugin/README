@@ -1,0 +1,30 @@
+Weather
+
+Originally written by Bob Schlärmann, this panel plugin shows
+information about your local weather in the panel, using forecast data
+provided by met.no.
+
+Usage
+The first time you open the configuration dialog, the weather plugin
+automatically configures itself to fetch weather data from a place which
+should be near you - based on your IP address. It will also try to
+determine the units used in your country, but you can alter these on the
+units page.
+
+You can change this location using the Change… button and searching for
+the city, country, address, monument etc. you're interested in. Only
+latitude, longitude and altitude will be used for the data requests, so
+you can change the location name to something you like. There is a
+further tab for appearance settings and one for customizing data visible
+in the scrollbox.
+
+On the panel icon, a middle click forces an update, left click brings up
+a forecast and details page. Right-clicking opens the contextual menu.
+
+There are a lot of tooltips describing the options and values available.
+
+NOTE: To save power, the plugin stops animation and deactivates other
+CPU-consuming settings when your laptop is on battery. Remember this
+when you try to change settings, as some results may only be visible
+when the A/C adapter is attached! If you don't like this feature, there
+is a hidden setting to turn it off, see the README file.

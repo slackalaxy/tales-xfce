@@ -1,0 +1,14 @@
+xfce4-power-manager - Power Manager
+
+Xfce4 Power Manager manages the power sources of the computer and
+connected devices (wireless mice, keyboards, media players etc). It also
+allows users to control the display backlight brightness and set power-
+saving modes for displays and monitors.
+
+In addition, xfce4-power-manager provides a set of freedesktop-compliant
+DBus interfaces to inform other applications about the current power
+level so that they can adjust their power consumption, and it provides
+the inhibit interface which allows applications to prevent automatic
+sleep actions via the power manager; as an example, the operating
+system's package manager should make use of this interface while it is
+performing update operations.

@@ -1,0 +1,13 @@
+xfce4-places-plugin - Places
+Originally written by Diego Ongaro, this plugin is a menu with quick
+access to folders, documents, and removable media. The places plugin
+brings much of the functionality of GNOME's Places menu to Xfce.
+
+The plugin puts a simple button on the panel. Clicking on this button
+opens up a menu with the following:
+
+System-defined directories (home folder, trash, desktop, file system)
+Removable media (using thunar-vfs)
+User-defined bookmarks (reads ~/.gtk-bookmarks)
+Search program launcher (optional)
+Recent documents submenu (requires GTK+ v2.10 or greater)

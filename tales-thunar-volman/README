@@ -1,0 +1,18 @@
+Thunar Volume Manager (thunar-volman)
+
+The Thunar Volume Manager is an extension for the Thunar file manager,
+which enables automatic management of removable drives and media. For
+example, if thunar-volman is installed and configured properly, and you
+plug in your digital camera, it will automatically launch your preferred
+photo application and import the new pictures from the camera into your
+photo collection.
+
+The advantage of Thunar Volume Manager over other solutions (like gnome-
+volume-manager or ivman) is that it does not require an additional
+daemon to be running in the users desktop session, which means it is a
+very lightweight solution. In addition, the Thunar Volume Manager
+smoothly integrates into the Thunar file manager and the Xfce desktop.
+
+It was designed to look and behave similar to gnome-volume-manager to
+get consistent removable drive and media management in Xfce and GNOME.
+This is to help GNOME refugees and people using both Xfce and GNOME.

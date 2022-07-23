@@ -1,0 +1,13 @@
+garcon - menu library
+
+Garcon is an implementation of the freedesktop.org compliant menu
+specification. It is based on GLib/GIO and aims at covering the entire
+specification except for legacy menus. It was started as a complete
+rewrite of the former Xfce menu library called libxfce4menu, which, in
+contrast to garcon, was lacking menu merging features essential for
+loading menus modified with menu editors.
+
+Garcon covers almost every part of the menu specification except for
+legacy menus and a few XML attributes. In contrast to libxfce4menu, it
+can also load menus modified with menu editors such as Alacarte as menu
+merging is now supported.

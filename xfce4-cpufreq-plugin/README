@@ -1,0 +1,22 @@
+CpuFreq
+
+Originally written by Thomas Schreck, this panel plugin shows
+information about the CPU governor and frequencies supported and used by
+your system. At the moment, changing any of these settings is not
+supported by this plugin but might be implemented in future releases.
+
+Usage
+From the configuration dialog, which is available by right-clicking on
+the panel widget, select the CPU which you want to monitor in the panel.
+Instead of showing values for a single CPU, you can alternatively choose
+minimum, average or maximum, which might make more sense on a multi-core
+system. If your system is using the Intel pstate driver, the current
+maximum will be chosen by default, as this is what other monitoring
+applications like i7z show as the current real performance.
+
+The remaining options on the configuration dialog let you customize the
+panel widget layout and what data is shown on the panel.
+
+The overview window can be accessed by left-clicking on the panel plugin
+widget, or from the context menu, similar to the configuration dialog.
+It shows detailed information for every CPU (core).

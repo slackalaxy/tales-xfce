@@ -1,0 +1,18 @@
+Clipman - xfce4-clipman-plugin
+
+Clipman is a clipboard manager for Xfce. It keeps the clipboard contents
+around while it is usually lost when you close an application. It is
+able to handle text and images, and has a feature to execute actions on
+specific text by matching them against regular expressions.
+
+Anatomy of a Clipboard
+In X11 (all Unix platforms) there are by default two clipboards to
+exchange any data between the windows. A default clipboard which is
+modified by manual copies (for instance when you select a file and press
+the copy button), and there is a primary clipboard which is modified by
+selections (for instance when you select text in a field).
+
+Clipman handles only the default clipboard, but optionally it can also
+notice the selections. When it is handling the selections, the default
+clipboard will always be synced with it and contain the same data. By
+this meaning you can paste with the keyboard what you select on screen.

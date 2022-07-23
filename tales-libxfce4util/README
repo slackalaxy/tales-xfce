@@ -1,0 +1,4 @@
+libxfce4util - Utility sharing library
+
+Libxfce4util is used to share commonly used non-GTK+ utilities among the
+Xfce applications.

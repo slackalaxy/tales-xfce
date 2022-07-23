@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in.  You must
+# make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':'.
+
+                   |-----handy-ruler------------------------------------------------|
+tales-thunar-volman: tales-thunar-volman (Thunar Volume Manager Plugin)
+tales-thunar-volman: 
+tales-thunar-volman: thunar-volman is an extension for the Thunar File Manager, 
+tales-thunar-volman: which enables automatic management of removable drives and 
+tales-thunar-volman: media. 
+tales-thunar-volman: 
+tales-thunar-volman: 
+tales-thunar-volman: 
+tales-thunar-volman: 
+tales-thunar-volman: 
+tales-thunar-volman: 

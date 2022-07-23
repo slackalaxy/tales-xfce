@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct. It's also
+# customary to leave one space after the ':'.
+
+            |-----handy-ruler------------------------------------------------------|
+tales-garcon: tales-garcon (menu implementation for Xfce)
+tales-garcon:
+tales-garcon: This is garcon, a freedesktop.org compliant menu implementation based
+tales-garcon: on GLib and GIO. It was started as a rewrite of the former Xfce menu
+tales-garcon: library called libxfce4menu.
+tales-garcon:
+tales-garcon:
+tales-garcon:
+tales-garcon:
+tales-garcon:
+tales-garcon:

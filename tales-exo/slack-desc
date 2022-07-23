@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct. It's also
+# customary to leave one space after the ':'.
+
+         |-----handy-ruler------------------------------------------------------|
+tales-exo: tales-exo (libexo extension library)
+tales-exo:
+tales-exo: This is libexo, an extension library to Xfce, developed by
+tales-exo: os-cillation. While Xfce comes with quite a few libraries that are
+tales-exo: targeted at desktop development, libexo is targeted at application
+tales-exo: development. It also has some helper applications that are used
+tales-exo: throughout the entire desktop.
+tales-exo:
+tales-exo: 
+tales-exo:
+tales-exo:

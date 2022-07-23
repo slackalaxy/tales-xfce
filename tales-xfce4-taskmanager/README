@@ -1,0 +1,9 @@
+Task Manager
+
+Support for Linux, OpenBSD, NetBSD, FreeBSD and OpenSolaris.
+Monitors the CPU and memory usage.
+Tree view columns can be reordered.
+View processes as a tree.
+Display window icons/names.
+Customizable with some settings.
+Filter process list on process names.
