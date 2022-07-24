@@ -16,6 +16,7 @@ tales-xfwm4
 tales-xfce4-session
 tales-xfce4-clipman-plugin
 tales-xfce4-notifyd
+tales-xfce4-pulseaudio-plugin
 tales-xfce4-screenshooter
 tales-xfce4-systemload-plugin
 tales-xfce4-taskmanager
