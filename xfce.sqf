@@ -36,4 +36,4 @@ xfce4-xkb-plugin
 libunique
 xfce4-notes-plugin
 gtk-xfce-engine
-xfwm-themes
+xfwm4-themes
