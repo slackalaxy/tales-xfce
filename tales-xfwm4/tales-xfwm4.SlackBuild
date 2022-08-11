@@ -95,6 +95,11 @@ make install DESTDIR=$PKG
 
 rm -f $PKG/{,usr/}lib${LIBDIRSUFFIX}/*.la
 
+# fix incorrect icon size 16x16 should be 22x22
+convert $PKG/usr/share/icons/hicolor/22x22/actions/xfce-wm-menu.png \
+	-resize 22x22 \
+	$PKG/usr/share/icons/hicolor/22x22/actions/xfce-wm-menu.png
+
 mkdir -p $PKG/etc/X11/xinit
 cat $CWD/xinitrc.xfce > $PKG/etc/X11/xinit/xinitrc.xfce
 chmod 0755 $PKG/etc/X11/xinit/*
@@ -104,12 +109,13 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a \
-  AUTHORS ChangeLog COMPOSITOR INSTALL NEWS README TODO \
+  AUTHORS ChangeLog COMPOSITOR NEWS README TODO \
   $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.$PKGTYPE
