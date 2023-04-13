@@ -27,7 +27,7 @@ cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=tumbler
 SRCNAM=tumbler
-VERSION=${VERSION:-0.2.9}
+VERSION=${VERSION:-0.1.21}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_tales}
 PKGTYPE=${PKGTYPE:-tgz}
