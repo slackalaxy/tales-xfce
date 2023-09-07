@@ -34,5 +34,4 @@ xfce4-wavelan-plugin
 xfce4-xkb-plugin
 libunique
 xfce4-notes-plugin
-gtk-xfce-engine
-xfwm4-themes
+
