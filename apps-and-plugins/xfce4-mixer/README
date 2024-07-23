@@ -1,0 +1,3 @@
+This package contains a volume control application based on GStreamer
+written to conceptually fit into the Xfce desktop environment. It
+includes a plugin for the Xfce panel.

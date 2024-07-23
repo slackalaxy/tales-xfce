@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description. Line
+# up the first '|' above the ':' following the base package name, and the '|'
+# on the right side marks the last column you can put a character in. You must
+# make exactly 11 lines for the formatting to be correct. It's also
+# customary to leave one space after the ':'.
+
+            |-----handy-ruler------------------------------------------------------|
+brasero-gtk2: brasero-gtk2 (CD/DVD burning application)
+brasero-gtk2:
+brasero-gtk2: Brasero is a application to burn CD/DVD for the Gnome Desktop. It is 
+brasero-gtk2: designed to be as simple as possible and has some unique features to 
+brasero-gtk2: enable users to create their discs easily and quickly.
+brasero-gtk2:
+brasero-gtk2: Homepage: http://projects.gnome.org/brasero
+brasero-gtk2:
+brasero-gtk2:
+brasero-gtk2:
+brasero-gtk2:

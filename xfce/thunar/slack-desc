@@ -5,7 +5,7 @@
 # make exactly 11 lines for the formatting to be correct.  It's also
 # customary to leave one space after the ':'.
 
-            |-----handy-ruler------------------------------------------------------|
+      |-----handy-ruler------------------------------------------------------|
 thunar: thunar (file manager)
 thunar:
 thunar: Thunar is a modern file manager for the Xfce Desktop Environment.
